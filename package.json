@@ -4,8 +4,8 @@
   "description": "Quiz interativo para diagnóstico financeiro com integração WhatsApp",
   "main": "index.html",
   "scripts": {
-    "dev": "npx http-server . -p 3000 -o",
-    "build": "echo 'Build concluído - aplicação estática'",
+    "dev": "npx http-server . -p 3001 -o",
+    "build": "mkdir -p dist && cp -r index.html assets dist/ && echo 'Build concluído - pasta dist criada'",
     "start": "npx http-server . -p 8080"
   },
   "keywords": [
