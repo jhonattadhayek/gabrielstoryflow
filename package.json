@@ -5,7 +5,7 @@
   "main": "index.html",
   "scripts": {
     "dev": "npx http-server . -p 3001 -o",
-    "build": "mkdir -p dist && cp -r index.html assets dist/ && echo 'Build concluído - pasta dist criada'",
+    "build": "mkdir -p public && cp -r index.html assets public/ && echo 'Build concluído - pasta public criada'",
     "start": "npx http-server . -p 8080"
   },
   "keywords": [
